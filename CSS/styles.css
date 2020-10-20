@@ -5,10 +5,11 @@
 
 /* Components */
 @import "variables.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 body {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
+    height:1000vh;
 }
