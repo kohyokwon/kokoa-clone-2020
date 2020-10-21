@@ -3,14 +3,41 @@
     bottom: 0;
     width: 100%;
     background-color: #F9F9FA;
-    padding: 20px 50px;
+    padding: 25px 50px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(235, 232, 232, 0.6);
+    border-top: 1px solid rgba(196, 192, 192, 0.6);
 }
 .nav__list {
     display: flex;
     justify-content: space-between;
 }
 .nav__link {
+    position: relative;
     color: black;
+}
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 15px;  
+    bottom: 15px;
+}
+.nav__notification2 {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: tomato;
+    font-size: 1px;
+    
 }
