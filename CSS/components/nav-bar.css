@@ -42,17 +42,3 @@
     position: absolute;
     left: 30px; 
 }
-
-.nav__notification2 {
-    background-color: tomato;
-    width: 8px;
-    height: 8px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    color: tomato;
-    font-size: 1px;
-    position: absolute;
-    left: 30px; 
-}
