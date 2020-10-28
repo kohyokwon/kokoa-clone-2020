@@ -8,6 +8,9 @@
     font-size: 32px;
     font-weight: 600;
 }
-.screen-header__icon spen{
-    margin-left: 25px;
-}  
+.screen-header__icon span {
+    margin-right: 15px;
+}
+
+
+
