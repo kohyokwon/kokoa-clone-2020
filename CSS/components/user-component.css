@@ -55,6 +55,7 @@
 .box-3-inside-2 {
     margin-right: 10px;
     font-size: 13px;
+    display: inline-block;
 }
 
 .box-3-inside-1 {
@@ -66,6 +67,34 @@
     margin-top: 7px;
     font-size: 14px;
     color: rgba(0,0,0,0,5);
+}
+
+.box2-1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-3-inside-1-text-2 {
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(0,0,0,0,5);
+}
+
+.box-3-inside-1-text-1 {
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.box-3-inside-2-text-box {
+    margin-top: 11px;
+    background-color: tomato;
+    width: 22px;
+    height: 22px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 
