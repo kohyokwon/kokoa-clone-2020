@@ -1,3 +1,42 @@
+.h1 {
+    background-color: red;
+    width: 300px;
+    display: inline;
+}
+
 .span {
     background-color: red;
+    width: 300px;
+    display: block;
+}
+
+
+
+
+
+
+P {
+    text-align: center;
+}
+
+p a {
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    width: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height:40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.hide {
+    visibility:hidden;
+}
+
+div i {
+    display: list-item;
 }
