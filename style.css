@@ -40,3 +40,13 @@ p a {
 div i {
     display: list-item;
 }
+
+.services {
+    display: table;
+}
+
+.services div {
+    display: table-cell;
+    width: 50%;
+}
+
