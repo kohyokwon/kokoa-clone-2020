@@ -6,27 +6,28 @@
     <title>Document</title>
 </head>
 <style>
-body {
-    height: 1000vh;
+span {
+    background-color: yellowgreen;
+    padding: 5px;
+    border-radius: 10px;
 }
-div {
-    top: 5px;
-    width: 300px;
-    height: 300px;
-    background-color:cornflowerblue;
+div p span {
+    color:wheat;
 }
-
-#different {
-    top:5px;
-    background-color: wheat;
-    width: 350px;
-    position: fixed;
+p + span {
+    text-decoration: underline;
 }
-
 </style>
 
 <body>
-    <div></div>
-    <div id="different"></div>
+<div>
+    
+       <p>
+           zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+           zzzzzzzzzz<span>inside</span>
+       </p>
+       <span>hello</span>
+</div>
+
 </body>
 </html>
