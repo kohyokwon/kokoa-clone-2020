@@ -6,28 +6,17 @@
     <title>효권이 웹사이트</title>
 </head>
 <style>
-span {
-    background-color: yellowgreen;
-    padding: 5px;
-    border-radius: 10px;
-}
-div p span {
-    color:wheat;
-}
-p + span {
-    text-decoration: underline;
-}
-
+  input[placeholder~="name"]{
+      background-color:pink;
+  }
 </style>
 
 <body>
 <div>
-    
-       <p>
-           zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-           zzzzzzzzzz<span>inside</span>
-       </p>
-       <span>hello</span>      
+       <form>
+        <input type="text" placeholder="First name" />
+        <input type="password" required placeholder="Last name" />      
+       </form> 
 </div>
 
 </body>
