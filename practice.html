@@ -7,17 +7,32 @@
 </head>
 
 <style>
-  div {
-    width: 100px;
+  div:first-child {
     height: 100px;
-    background-color: teal;
-    position: fixed;
-    
+    width: 100px;
+    background-color: red;
   }
+  div:nth-child(2){
+    height: 100px;
+    width: 100px;
+    background-color: green;
+  }
+  div:last-child {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+  }
+  .go {
+    display: flex;
+  }
+
    </style>
 
 <body>
-  <div></div>
+  <div class="go">
+    <div></div>
+    <div></div>
+    <div></div>
   </div>
 </body>
 </html>
