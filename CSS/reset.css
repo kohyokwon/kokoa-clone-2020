@@ -42,6 +42,7 @@ table {
 	border-spacing: 0;
 }
 
+
 #login-form input:focus {
 	outline: none;
 }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>효권이의 웹사이트</title>
+</head>
+
+
+<style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600&display=swap');
+
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    .header{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+    
+    .login-form input {
+        padding: 16px 0px;
+        margin: 10px 0px;
+        border:none;
+    }
+
+    input:not([type="submit"]) {
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        transition: border-color 0.3s ease-in-out;
+    }
+
+    .login-form input:focus {
+        outline: none;
+        border-color:yellow;
+    }
+
+    a {
+        text-align: center;
+        margin-top: 50px;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .login-form input[type=submit]{
+        background-color: yellow;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    
+    
+
+
+</style>
+
+<body>
+    
+    <header class="header">
+        <h3>효권이의 웹사이트에 오신걸 환영합니다.</h1>
+        <span>맛있는거 먹으면서 친해져요~</span>
+    </header>
+
+    <form class="login-form">
+        <input name="username" placeholder="name">
+        <input type="password" placeholder="password">
+        <input type="submit" value="login">
+        <a href="#">비밀번호 찾기</a>
+    </form>
+    
+</body>
+</html>
