@@ -1,0 +1,21 @@
+
+
+.box-header {
+    margin-top: 57px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text {
+    width: 70%;
+}
+
+
+
+
+
+
+
+
