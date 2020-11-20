@@ -1,0 +1,13 @@
+
+.nav2 {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: seagreen;
+    padding: 0px 30px;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+}
