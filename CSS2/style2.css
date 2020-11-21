@@ -1,40 +1,14 @@
-
-@import "reset.css";
+@import "reset2.css";
+@import "status2.css";
 @import "header.css";
-@import "colorsearch.css";
-@import "nav.css";
+@import "login.css";
+@import "var.css";
+@import "nav2.css";
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.statusbar-box {
-    display: flex;
-    justify-content: center;
+.nav-list {
+    list-style:none;
 }
-
-.statusbar-box_text {
-    width: 33%;
-}
-
-.statusbar-box_text:nth-child(2) {
-    display: flex;
-    justify-content: center;
-}
-
-.statusbar-box_text:last-child {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.statusbar-box_text:first-child span {
-    margin-right: 5px;
-}
-
-.fa-battery-full {
-    margin: 0px 5px;
-}
-
-
-
