@@ -15,14 +15,30 @@
 
 .nav__link {
     color: #2e363e;
+    position: relative;
 }
 
 .nav__notification {
+    position: absolute;
+    left: 15px;
+    bottom: 15px 
+}
+
+.nav__btn:last-child {
+    position: relative;
+}
+
+.nav__notification2 {
     background-color: tomato;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+    color: tomato;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 6px;
+    height: 6px;
+    font-size: 1px;
+    border-radius: 3px;
+    position: absolute;
+    left: 30px;
+    bottom: 26px 
 }
