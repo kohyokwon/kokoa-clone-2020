@@ -1,0 +1,9 @@
+
+.channel-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 0px 15px;
+    color: rgba(0,0,0,0.6);
+}

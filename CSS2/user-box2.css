@@ -1,0 +1,9 @@
+
+.user-box2 {
+    border: none;
+}
+
+.user-box__img2 img {
+    width: 60px;
+    height: 60px;
+}

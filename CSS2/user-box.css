@@ -1,15 +1,23 @@
+.user-box {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .user-box__img {
     display: flex;
     align-items: center;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .user-box__img img {
     width: 70px;
     height: 70px;
     border-radius: 25px;
-    margin: var(--size);
+    margin-right: 15px;
 }
 
 .user-box__img span {
