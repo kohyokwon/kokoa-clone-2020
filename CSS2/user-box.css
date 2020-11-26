@@ -1,0 +1,18 @@
+
+.user-box__img {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.user-box__img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    margin: var(--size);
+}
+
+.user-box__img span {
+    font-weight: 600;
+}
+
