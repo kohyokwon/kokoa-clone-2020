@@ -1,0 +1,35 @@
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 0px 30px;
+}
+
+.form-box input {
+    padding: 17px 0px;
+    border: none;
+    outline: none;
+    margin-top: 12px;
+}
+
+.form-box input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-box input:focus {
+    border-color: var(--color);
+    cursor: pointer;
+}
+
+.form-box input[type="submit"] {
+    border-radius: 12px;
+    background-color: var(--color);
+}
+
+.link-a {
+    text-align: center;
+    margin-top: 15px;
+}
+
