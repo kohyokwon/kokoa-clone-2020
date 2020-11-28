@@ -1,0 +1,16 @@
+
+.header-box__div span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header-box {
+    margin-top: 25px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-box__div i {
+    margin-left: 25px;
+}
