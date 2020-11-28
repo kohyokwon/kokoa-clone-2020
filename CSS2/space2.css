@@ -1,0 +1,11 @@
+
+.space-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+}   
+
+.space-box span {
+    color: rgba(0,0,0,0.6);
+}
+

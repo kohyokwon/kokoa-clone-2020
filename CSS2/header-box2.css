@@ -14,3 +14,18 @@
 .header-box__div i {
     margin-left: 25px;
 }
+
+.header-box__badge {
+    display: block;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    right: -6px;
+    top: -8px
+}
+
+.header-box__div {
+    position: relative;
+}
