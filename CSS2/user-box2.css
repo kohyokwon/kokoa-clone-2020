@@ -21,3 +21,36 @@
 .user-bts2 {
     color: rgba(0,0,0,0.4);
 }
+
+.user-box__div-2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+.user-box__div-2 div{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+
+.user-box__div-2 {
+    position: relative;
+}
+
+.user-box__i i {
+    color: white;
+}
+
+.user-box__i span {
+    color: white;
+    margin-left: 3px;
+}
+
