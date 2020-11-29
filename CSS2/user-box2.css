@@ -1,0 +1,23 @@
+
+.user-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-box__mini-box img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.user-box__mini-box {
+    display: flex;
+}
+
+.user-bts {
+    font-weight: 600;
+}
+
+.user-bts2 {
+    color: rgba(0,0,0,0.4);
+}
