@@ -1,0 +1,15 @@
+
+.ul-box {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 30px;
+    box-sizing: border-box;   
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+.ul-box__li i {
+    color: red;
+}
