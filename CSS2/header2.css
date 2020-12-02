@@ -1,0 +1,19 @@
+
+.header-box {
+}
+
+.header-box__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-box__div i {
+    margin-left: 15px;
+}
+
+.header-box__div span {
+    font-size: 30px;
+    font-weight: 600;
+}
+

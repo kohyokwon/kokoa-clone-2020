@@ -1,0 +1,35 @@
+
+.status-box {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.status-box__div {
+    width: 33%;
+}
+
+.status-box__div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.status-box__div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.status-box__div:last-child span,
+.fa-battery-full {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+

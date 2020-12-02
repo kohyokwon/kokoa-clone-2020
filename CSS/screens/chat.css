@@ -13,8 +13,9 @@
     z-index: 1;
 }
  
-.status-bar {
+.status-bar2 {
     background-color: #abc1d1;
+    margin-top: -5px;
 }
 
 .main-chat {
