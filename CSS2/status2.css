@@ -1,28 +1,24 @@
 
-.start-box {
+.status-box {
     display: flex;
     justify-content: center;
     padding: 15px;
 }
 
-.start-box__div {
+.status-box__div {
     width: 33%;
 }
 
-.start-box__div:nth-child(2) {
+.status-box__div:nth-child(2) {
     display: flex;
     justify-content: center;
 }
 
-.start-box__div:last-child {
+.status-box__div:last-child {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
-.start-box__div:last-child span,
-.fa-battery-full {
-    margin-right: 5px;
+.status-box__div .fa-battery-full {
+    margin: 0 5px;
 }
-
-
