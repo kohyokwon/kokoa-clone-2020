@@ -1,5 +1,5 @@
 
-.start2-box {
+.start-box {
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -17,11 +17,6 @@
 .start-box__div:last-child {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-}
-
-.start2-box .fa-battery-full {
-    margin: 0 5px;
 }
 
 
