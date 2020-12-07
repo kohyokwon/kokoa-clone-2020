@@ -1,0 +1,12 @@
+
+.text-box {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.text-box span {
+    color: rgb(231, 231, 149);
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 20px;
+}

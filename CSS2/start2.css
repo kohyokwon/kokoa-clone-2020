@@ -17,7 +17,14 @@
 .start-box__div:last-child {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
+
+.start-box .fa-battery-full {
+    margin: 0 5px;
+}
+
+
 
 
 
