@@ -1,0 +1,14 @@
+
+.bar-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bar-box span {
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 12px;
+    border-radius: 20px;
+    color: rgb(241, 241, 184);
+}

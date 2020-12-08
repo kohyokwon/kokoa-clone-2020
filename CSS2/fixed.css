@@ -1,0 +1,21 @@
+
+.start-box {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+}
+
+.header-box {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 45px;
+}
+
+.main-box {
+    margin-top: 150px;
+}
+
+
+

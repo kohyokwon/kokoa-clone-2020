@@ -1,0 +1,65 @@
+
+.apple-box {
+    display: flex;
+    margin: 20px 0 0 25px;
+}
+
+.apple-box__div {
+    display: flex;
+}
+
+.apple-box__div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.apple-box__div__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apple-box__div img {
+    margin-right: 12px;
+}
+
+.time-box {
+    margin-top: 40px;
+    margin-left: 4px;
+}
+
+.apple-box__div__div h6 {
+    margin-top: 5px;
+    padding: 7px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-box--2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 25px;
+}
+
+.apple-box__div__div--2 h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 7px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.apple-box__div--2 span {
+    display: block;
+    margin-top: 16px;
+    margin-right: 3px;
+}

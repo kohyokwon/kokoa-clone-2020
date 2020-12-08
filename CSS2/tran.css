@@ -1,0 +1,16 @@
+
+@keyframes wow {
+    from{
+        
+    }
+    to{
+    
+    }
+}
+
+.apple-box {
+    animation: wow 0.8s ease-in-out ;
+}
+
+
+

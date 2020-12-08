@@ -2,7 +2,8 @@
 .header-box {
     display: flex;
     justify-content: center;
-    padding: 15px 30px;
+    padding: 20px 30px;
+    background-color: rgb(145, 217, 229);
 }
 
 .header-box__div {
@@ -19,15 +20,7 @@
     justify-content: flex-end;
 }
 
-.header-box__div .fa-search {
-    margin-right: 25px;
-}
-
-.header-box i {
-    font-size: 25px;
-}
-
-.header-box__div span{
-    font-size: 30px;
+.header-box__div:nth-child(2) span {
+    font-size: 35px;
     font-weight: 600;
 }

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding: 15px;
+    background-color: rgb(145, 217, 229);
 }
 
 .start-box__div {
@@ -17,13 +18,15 @@
 .start-box__div:last-child {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
-.start-box .fa-battery-full {
+.fa-battery-full {
     margin: 0 5px;
 }
 
+.fa-search {
+    margin-right: 25px;
+}
 
 
 
