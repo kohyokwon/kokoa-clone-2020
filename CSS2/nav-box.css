@@ -1,0 +1,36 @@
+
+.nav-box {
+    padding: 10px 30px;
+    background-color: rgba(0,0,0,0.1);
+    margin-top: 720px;
+}
+
+.ul-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: red;
+    animation: heart 1s linear;
+}
+
+.fa-music:hover {
+    animation: music 0.1s ease-in-out infinite; 
+}
+
+
+
+@keyframes music {
+    from {
+        
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+

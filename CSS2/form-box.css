@@ -1,0 +1,49 @@
+
+.form-box {
+    position: fixed;
+    width: 100%;
+    bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px;
+}
+
+.form-box input {
+    position: relative;
+    padding: 5px 190px;
+    border-radius: 15px;
+    border-color: rgba(0,0,0,0.1);
+}
+
+.fa-plus-square {
+    font-size: 20px;
+    color: rgba(0,0,0,0.3);
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.fa-smile, .shenme {
+    position: absolute;
+}
+
+.fa-smile {
+    font-size: 20px;
+    right: 48px;
+    top: 9px;
+    color: rgba(0,0,0,0.3);
+}
+
+.shenme {
+    right: 15px;
+    top: 8px;
+    border: none;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+}
+
+.shenme:focus {
+    outline: none;
+}

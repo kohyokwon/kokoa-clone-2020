@@ -1,21 +1,17 @@
-
-.start-box {
+.start-box, .title-box {
     position: fixed;
     width: 100%;
     box-sizing: border-box;
+}
+
+.start-box {
     top: 0;
 }
 
-.header-box {
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    top: 45px;
+.title-box {
+    top: 40px;
 }
 
-.main-box {
-    margin-top: 150px;
+.text-box {
+    margin-top: 160px;
 }
-
-
-

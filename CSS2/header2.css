@@ -1,26 +1,30 @@
 
-.header-box {
+.title-box {
     display: flex;
     justify-content: center;
     padding: 20px 30px;
-    background-color: rgb(145, 217, 229);
+    background-color: var(--color);
 }
 
-.header-box__div {
+.title-box__div {
     width: 33%;
 }
 
-.header-box__div:nth-child(2) {
+.title-box__div:nth-child(2) {
     display: flex;
     justify-content: center;
 }
 
-.header-box__div:last-child {
+.title-box__div:last-child {
     display: flex;
     justify-content: flex-end;
 }
 
-.header-box__div:nth-child(2) span {
-    font-size: 35px;
+.fa-search {
+    margin-right: 25px;
+}
+
+.title-text {
+    font-size: 30px;
     font-weight: 600;
 }
