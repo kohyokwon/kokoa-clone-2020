@@ -1,0 +1,14 @@
+
+.start-box, .header-box {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.start-box {
+    top: 0;
+}
+
+.header-box {
+    top: 45px;
+}
