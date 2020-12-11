@@ -1,0 +1,45 @@
+
+.call {
+    margin-top: 150px;
+}
+
+.call-box {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.call-box span {
+    display: block;
+    font-size: 20px;
+    animation: hyokwon2 0.6s ease-in-out forwards;
+}
+
+.call-box__2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px;
+}
+
+.call-box__2 span {
+    display: block;
+    font-size: 20px;
+    animation: hyokwon3 0.6s ease-in-out;
+}
+
+@keyframes hyokwon2 {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: none;
+    }
+}
+
+@keyframes hyokwon3 {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: none;
+    }
+}
