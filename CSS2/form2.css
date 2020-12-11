@@ -1,0 +1,47 @@
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    margin-top: 250px;
+}
+
+.form-box input {
+    padding: 30px 0;
+    border: none;
+    outline: none;
+    margin-top: 12px;
+}
+
+.form-box input::placeholder {
+    font-size: 20px;
+}
+
+.form-box input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.form-box input {
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-box input:focus {
+    border-bottom: 1px solid yellow;
+}
+
+.form-box input[type="submit"] {
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(0,0,0,0.6);
+}
+
+
+
