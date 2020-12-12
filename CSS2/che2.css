@@ -1,0 +1,24 @@
+
+.che-box {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    padding: 15px;
+    margin: 0 15px;
+    color:  rgba(0,0,0,0.3);
+}
+
+.user2-box__div-2 {
+    margin-right: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user2-box__div-2 span {
+    margin-right: 2px;
+}
+
+.user2-box__div-2:nth-child(2) {
+    color: rgba(0,0,0,0.3);
+}

@@ -1,0 +1,19 @@
+
+.no-box {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}
+
+@media screen and (max-width:650px) {
+    .no-box {
+        display: none;
+    }
+}

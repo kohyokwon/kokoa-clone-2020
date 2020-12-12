@@ -1,0 +1,16 @@
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.header-box i {
+    margin-left: 25px;
+}
+
+.header-box span {
+    font-size: 35px;
+    font-weight: 600;
+}

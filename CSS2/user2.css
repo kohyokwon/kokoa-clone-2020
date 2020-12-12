@@ -1,0 +1,28 @@
+
+.user2-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user2-box__div img {
+    height: 80px;
+    width: 80px;
+    border-radius: 32px;
+    margin: 15px;
+}
+
+.user2-box__div {
+    display: flex;
+    align-items: center;
+}
+
+.user2-box__div span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user2-box__div-2 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}

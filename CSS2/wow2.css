@@ -1,0 +1,23 @@
+
+.wow-box {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: 600;
+    animation: hyokwon3 2s ease-in-out forwards;
+}
+
+@keyframes hyokwon3 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
